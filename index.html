@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Tetris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JS Tetris</h1>
+    <div class="game-container">
+        <canvas id="tetris-board" width="300" height="600"></canvas>
+        <div class="side-panel">
+            <div id="score-container">점수: <span id="score">0</span></div>
+            <h2>다음 블록</h2>
+            <canvas id="next-piece-canvas" width="120" height="120"></canvas>
+            <h2>홀드 (C)</h2>
+            <canvas id="hold-piece-canvas" width="120" height="120"></canvas>
+        </div>
+    </div>
+    <script src="src.js"></script>
+</body>
+</html>
